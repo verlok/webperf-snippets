@@ -1,8 +1,8 @@
-# Log to console long animation frame (LoAF) and the longtest running script
+# Long animation frame (LoAF) and the longtest running script
 
-Sometimes you just want to log to console long animation frames as they happen, and the longest running script inside that long animation frame. 
+If you want to log to console, or send to analytics, the longest animation frame and the longest running script within that long animation frame.
 
-The following code works from Chrome 122 up, but if you are on Chrome 121 or lower you need to use the [polyfilled version of this cript](./06-long-animation-frame-loaf-and-longest-running-script-console-log--chrome-121.md).
+The following code works on Chrome versions from 122 up. If you willing to support older versions of Chrome, you should just use the [polyfilled version of this script](./06-long-animation-frame-loaf-and-longest-running-script-console-log--chrome-121.md).
 
 
 ```js
