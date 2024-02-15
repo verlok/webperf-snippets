@@ -82,9 +82,10 @@ const observer = new PerformanceObserver((list) => {
             ...sourceParts(longestScript.sourceLocation),
           },
         };
-    console.log(objToLog, `Remapped old property names: ${!newPropertyNames}`);
+    console.log(objToLog, `Remapped old property names: ${!newPropertyNames ? 'Yes' : 'No'}`);
     // console.log(longestScript); // need anything else from the longest script object?
   }
 });
 
 observer.observe({ type: "long-animation-frame", buffered: true });
+```
