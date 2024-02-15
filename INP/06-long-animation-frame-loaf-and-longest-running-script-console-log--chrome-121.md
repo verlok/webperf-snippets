@@ -80,11 +80,10 @@ const observer = new PerformanceObserver((list) => {
             invokerType: longestScript.type,
             duration: longestScript.duration,
             ...sourceParts(longestScript.sourceLocation),
-            newPropertyNames: false,
           },
         };
-    console.log(objToLog, `Used new property names: ${newPropertyNames}`);
-    // console.log(longestScript); //need anything else?
+    console.log(objToLog, `Remapped old property names: ${!newPropertyNames}`);
+    // console.log(longestScript); // need anything else from the longest script object?
   }
 });
 
