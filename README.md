@@ -14,4 +14,4 @@ Find here some web performance snippets to debug web performance in Chrome devel
 
 ## LCP
 
-- [Get the LCP candidates.js](./LCP/01-lcp-candidates-console-log.js)
+- [Get the LCP candidates](./LCP/01-lcp-candidates-console-log.md)
