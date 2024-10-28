@@ -17,4 +17,4 @@ Find here some web performance snippets to debug web performance in Chrome devel
 
 ## Utilities
 
-- [Poll for a given element](./All/01-poll-for-a-given-element.md)
+- [Wait for an element to appear in the DOM](./All/01-wait-for-element.md)
